@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: Tahoma;
+    color:white;
+    font-size: 80px ;
+}
+h2{
+    margin:0.5% auto;
+    font-family: Tahoma;
+    margin-left:750px; 
+    color: black;
+}
+.imp
+{
+    height:100% ;
+    width: 100%;
+    background-color: #576CBC;
+    background-size: cover;
+    position: absolute;
+}
+.form-box{
+    border-radius: 20px;
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 3% auto;
+    background: white;
+    padding: 5px;
+    overflow: hidden;
+}
+.button-box
+{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px white;
+    border-radius: 20px;
+
+}
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right,royalblue,#62CDFF);
+    border-radius: 30px;
+}
+.input-group
+{
+
+    top: 100px;
+    position: absolute;
+    width: 300px;
+    transition: .5s;
+
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.submit-btn
+{ 
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin-top: 20px;
+    margin-left: 10px;
+    background: linear-gradient(to right, royalblue,#62CDFF);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+#login{
+    left: 50px;  
+}
+#register{
+    left: 450px;
+}
