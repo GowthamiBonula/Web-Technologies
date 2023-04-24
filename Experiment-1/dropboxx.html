@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <script>
+       function doo(){
+        qwe=document.createElement("form");
+        var x=document.querySelector("#btn");
+        var y=document.querySelector("#optis");
+        var tmp=document.createElement("br");
+        document.body.appendChild(tmp);
+        if (y.value=="ta"){
+            var z=document.createElement("textarea");
+            qwe.appendChild(z);
+        }
+        else if(y.value=='tb'){   
+            var z=document.createElement('input');
+            qwe.appendChild(z);
+        }
+        else if(y.value=='radio'){
+            var z=document.createElement('input');
+            z.setAttribute("type","radio");
+           
+            var lab = document.createElement("label");
+            lab.innerText="Radio Button";
+           qwe.appendChild(z);
+           qwe.appendChild(lab);
+            var tmp=document.createElement("br");
+            qwe.appendChild(tmp);
+        }
+        else{
+            var lab=document.createElement("label");
+            lab.innerText="Check Box";
+            var c=document.createElement("input");
+            c.setAttribute("type","checkbox");
+            
+            qwe.appendChild(c);
+            qwe.appendChild(lab);
+        }
+        document.body.appendChild(qwe);
+       }
+    </script>
+</head>
+<body bgcolor="antiquewhite">
+    <br><br>
+    <form for="optis" >
+        <label >CHOOSE FROM GIVEN : </label>
+        <select id="optis">
+          <option value="ta" >TextArea</option>
+          <option value="tb" >Text box</option>
+          <option value="radio">Radio Button</option>
+          <option value="checkbox" >Check Box</option>
+        </select><br>
+      </form>
+      <br><br>
+      <button id="btn" onclick="doo()"> perform</button>
+      <form action="" id="frms"></form>
+     
+</body>
+</html>

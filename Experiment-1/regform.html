@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" /> 
+  <title>REGISTRATION FORM</title>
+</head>
+ 
+ 
+<body>
+  <div class="me">
+    <form name="f1" method="get/post" action=" ">
+     
+      <h2 align="center">REGISTRATION FORM</h2>
+        <table border=0 cellspacing="0" cellpadding="5">
+            <tr>
+                <td><label for = "username">USERNAME:</label></td>
+                <td><input type="text" name="uname" required placeholder="Enter your name"></td>
+            </tr>
+            <tr>
+                <td><label for="email">EMAIL:</label></td>
+                <td><input type="email" name="eid" required placeholder="Enter valid email id"></td>
+            </tr>
+              <tr>
+                <td><label for="gender">GENDER:</label></td>
+                <td><input type="radio" name="gen">male</td>
+                <td><input type="radio" name="gen">female</td>
+            </tr>
+            <tr>
+                <td><label for="rel">RELIGION:</label></td>
+                <td><select name="rel" required>
+                    <option>HINDU</option>
+                    <option>MUSLIM</option>
+                    <option>CHRISTIAN</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="DOB">DOB:</label></td>
+                <td><input type="date" name="DOB" required></td>
+            </tr>
+            <tr>
+                <td><label for="lang">LANGUAGES:</label></td>
+                <td>
+                    <input type="checkbox" name="lang">TELUGU
+                    <input type="checkbox" name="lang">HINDI
+                    <input type="checkbox" name="lang">ENGLISH
+                </td>
+             </tr>
+            <tr>
+                <td><Label for="address">ADRRESS:</Label></td>
+                <td><textarea rows=7 cols=25 placeholder="Enter your permanent address"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="password">PASSWORD:</label></td>
+                <td><input type="password" name="pwd"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" name="SUBMIT" value="clickhere to submit"></td>
+                <td><input type="reset" name="reset"></td>
+            </tr>
+                 
+           
+        </table>
+        <ul>
+          <li>Read the instructions carefully</li>
+          <li>Fill all the fields</li>
+          <li>Terms and conditions apply</li>
+        </ul>
+
+        <nav class="NAV">
+            <a href="#">Help</a>
+        </nav>
+         
+    </form>
+    </div>
+</body>
+</html>

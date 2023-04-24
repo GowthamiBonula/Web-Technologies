@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>Restaurant Bill Generator</title>
+    <link rel="stylesheet" href="bill.css">
+  </head>
+  <body>
+    <h1>Restaurant Bill Generator</h1>
+    <div class="menu">
+      <h2>Menu</h2>
+      <button class="menu-item" id="burger">Burger (Rs.100/-)</button>
+      <button class="menu-item" id="fries">Fries (Rs.70/-)</button>
+      <button class="menu-item" id="salad">Salad (Rs.50/-)</button>
+      <button class="menu-item" id="soft-drink">Soft Drink (Rs.20/-)</button>
+      <button class="menu-item" id="coffee">Coffee (Rs.30/-)</button>
+    </div>
+    <div class="bill">
+      <h2>Bill</h2>
+      <ul id="bill-items">
+      </ul>
+      <p>Subtotal: Rs<span id="subtotal">0.00</span></p>
+      <p>Tax: Rs.<span id="tax">0.00</span></p>
+      <p>Total: Rs.<span id="total">0.00</span></p>
+      <button id="clear-bill">Clear Bill</button>
+    </div>
+    <script src="bill.js"></script>
+  </body>
+</html>

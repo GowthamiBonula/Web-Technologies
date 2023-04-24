@@ -1,0 +1,45 @@
+ 
+::placeholder
+{
+  color: rgb(221, 19, 90);
+}
+.me
+{
+    border: 5px outset ;
+    background-color:antiquewhite;    
+    text-align: left;
+}
+a
+{
+   flex:10;
+    text-decoration:name;
+    outline:name;
+    text-align:center;
+    line-height:3;
+    color:red;
+}
+a:link,
+a:visited,
+a:focus
+{
+    background:white;
+    color:blue;
+}
+a:hover
+{
+  color:red;
+}
+ul
+{
+    background-color:white;
+    color:slateblue;
+    padding-left:20px;
+    width:30%;
+}
+ul li
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(139, 0, 23);
+    padding:5px;
+    margin-right:10px;
+}

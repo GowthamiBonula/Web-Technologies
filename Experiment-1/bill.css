@@ -1,0 +1,63 @@
+body
+ {
+  font-family: Arial, sans-serif;
+  background-image: url('mcd.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+}
+header {
+  background-color: #ffcc00;
+  padding: 20px;
+}
+h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 36px;
+  color: black;
+}
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  font-size: 24px;
+  margin-top: 0;
+}
+ul 
+{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li 
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+li button {
+  background-color: #ffcc00;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+li button:hover {
+  background-color: #e6b800;
+}
+button {
+  background-color: #ffcc00;
+  border: none;
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #e6b800;
+}

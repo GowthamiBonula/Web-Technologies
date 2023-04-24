@@ -1,0 +1,32 @@
+h1
+{ 
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: antiquewhite;
+}
+a
+{
+   flex:10;
+    text-decoration:name;
+    outline:name;
+    line-height:2;
+    color:red;
+}
+a:link,
+a:visited,
+a:focus
+{
+    background:white;
+    color:blue;
+}
+a:hover
+{
+  color:red;
+}
+ul
+{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
